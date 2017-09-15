@@ -1,0 +1,28 @@
+/*
+
+Theme Name: Pro &ndash; Child Theme
+Theme URI: http://theme.co/pro/
+Author: Themeco
+Author URI: http://theme.co/
+Description: Make all of your modifications to Pro in this child theme.
+Version: 1.0.0
+Template: pro
+
+*/
+
+.animate { width: 100%; max-width: 800px; height: 278px; display: block; background: transparent url('http://184.175.101.117/~elgindiemold/wp-content/uploads/2017/09/Molded-Component.jpg') center top no-repeat; background-size: contain; overflow: hidden; }
+.animate:hover { animation: animatein 5s ease-in; }
+@keyframes animatein {
+    0% {
+        background: transparent url('http://184.175.101.117/~elgindiemold/wp-content/uploads/2017/09/Molded-Component.jpg') center top no-repeat;
+        background-size: contain;
+    }
+    50% {
+        background: transparent url('http://184.175.101.117/~elgindiemold/wp-content/uploads/2017/09/Molded-Component-zoom.jpg') center top no-repeat;
+        background-size: contain;
+    }
+    100% {
+        background: transparent url('http://184.175.101.117/~elgindiemold/wp-content/uploads/2017/09/Molded-Component-overlay.jpg') center top no-repeat;
+        background-size: contain;
+    }
+}
